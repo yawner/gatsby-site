@@ -38,7 +38,7 @@ function Bio() {
               }}
             />
             <p>
-              {author} is a punk who designs for money. Currently a 2020 2D Design MFA Candidate at Cranbrook Academy of Art.
+              {author} is a punk who designs for money ; ) . Currently a 2020 2D Design MFA Candidate at Cranbrook Academy of Art.
               {` `}
               <a href={`https://instagram.com/${social.ig}`}>
                 Society's stuff

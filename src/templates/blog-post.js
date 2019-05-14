@@ -19,6 +19,7 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
         />
         <h1>{post.frontmatter.title}</h1>
+        <img src={post.frontmatter.image} alt="{post.frontmatter.title}" />
         <p
           style={{
             ...scale(-1 / 5),
@@ -82,6 +83,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        image
         description
       }
     }

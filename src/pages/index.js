@@ -19,6 +19,9 @@ class BlogIndex extends React.Component {
           keywords={[`art`, `design`, `javascript`, `react`]}
         />
         <Bio />
+        <h2>
+          Work
+        </h2>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
@@ -32,7 +35,7 @@ class BlogIndex extends React.Component {
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date}</small>
+              <img src={node.frontmatter.image} alt="{title}" />
               <p
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
@@ -64,6 +67,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            image
             description
           }
         }
