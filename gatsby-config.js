@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Trev`,
-    author: `Trev(or) Jahner`,
+    title: `trev`,
+    author: `trev(or) jahner`,
     description: `Art and design work.`,
     siteUrl: `https://trevtrevtrev.work`,
     social: {
@@ -58,8 +58,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `trev's design work`,
+        short_name: `trev`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
