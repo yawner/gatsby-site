@@ -1,7 +1,8 @@
 ---
 title: Brendan Dawes
-tags: ["Poster"]
-date: 2018-11-01T14:08:27.557Z
+tag:
+  - Poster
+date: '18'
 description: Poster for Cranbrook 4D's visiting artist Brendan Dawes
 image: /img/brendan-dawes.jpg
 ---
