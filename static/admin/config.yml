@@ -15,7 +15,8 @@ collections:
      preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Tags", name: "tag", widget: "select", multiple: true, options: ["Review", "Book", "Poster"], default: "Poster" }
+      - { label: "Date", name: "date", widget: "date", format: "YY" }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "Cover Image", name: "image", widget: "image", required: false, tagname: "" }
+      - { label: "Cover Image", name: "image", widget: "image", required: true, tagname: "" }
       - { label: "Body", name: "body", widget: "markdown" }
