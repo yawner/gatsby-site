@@ -1,6 +1,6 @@
 ---
 title: Brendan Dawes
-tag:
+tags:
   - Poster
 date: '18'
 description: Poster for Cranbrook 4D's visiting artist Brendan Dawes
