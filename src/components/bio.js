@@ -38,7 +38,7 @@ function Bio() {
               }}
             />
             <p>
-              {author} works in layouts, drawings, code &amp; art. After learning to design in Denver's undeground music/art scene, i freelanced for years for nonprofits. i bring a unique perspective, lateral thinking and a diy work ethic to everything i make. Currently a 2020 2D Design MFA Candidate at Cranbrook Academy of Art.
+              {author} works in layouts, drawings, code &amp; art. After learning to design in Denver's undeground music/art scene, i freelanced for years for nonprofits. i bring a unique perspective, outsider thinking and a diy work ethic to everything i make. Currently a 2020 2D Design MFA Candidate at Cranbrook Academy of Art.
               {` `}
               <a href={`https://instagram.com/${social.ig}`}>
                 Society's stuff
